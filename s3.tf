@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "destination" {
-  provider = "us-east-2"
+  provider = "aws.us-east-2"
   region   = "us-east-2"
   bucket = "tfstatereplicationbucket"
   acl = "private"
@@ -13,7 +13,7 @@ resource "aws_s3_bucket" "destination" {
 }
 
 resource "aws_s3_bucket" "state" {
-    bucket = "tfstatebucket"
+    bucket = "${var.tf_s3_bucket}"
     acl = "private"
     tags {
         Name        = "Terraform State Bucket"

@@ -8,5 +8,5 @@ variable "az1" {}
 variable "opsman_instance_type" {}
 variable "directorSG" {}
 variable "PcfVpcPublicSubnet_az1" {}
-variable "tfstatebucket" {}
+variable "tf_s3_bucket" {}
 variable "master_state_file" {}
