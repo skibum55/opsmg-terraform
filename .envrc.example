@@ -1,0 +1,10 @@
+export TF_VAR_aws_access_key=yourkey
+export TF_VAR_aws_secret_key=yoursecretkey
+export TF_VAR_aws_key_name=bosh
+export TF_VAR_environment=sk-TF-OM1.10
+export TF_VAR_opsman_ami=ami-03f65e15
+export TF_VAR_aws_region=us-east-1
+export TF_VAR_az1=us-east-1a
+export TF_VAR_directorSG=yoursecuritygroupid
+export TF_VAR_opsman_instance_type=m4.large
+export TF_VAR_PcfVpcPublicSubnet_az1=yoursubnetid

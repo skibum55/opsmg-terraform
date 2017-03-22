@@ -1,0 +1,10 @@
+variable "aws_access_key" {}
+variable "aws_secret_key" {}
+variable "aws_key_name" {}
+variable "environment" {}
+variable "opsman_ami" {} 
+variable "aws_region" {}
+variable "az1" {}
+variable "opsman_instance_type" {}
+variable "directorSG" {}
+variable "PcfVpcPublicSubnet_az1" {}
