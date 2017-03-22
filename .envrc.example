@@ -8,3 +8,6 @@ export TF_VAR_az1=us-east-1a
 export TF_VAR_directorSG=yoursecuritygroupid
 export TF_VAR_opsman_instance_type=m4.large
 export TF_VAR_PcfVpcPublicSubnet_az1=yoursubnetid
+export TF_VAR_tf_s3_bucket=yourbucket
+export TF_VAR_master_state_file=your.tfstate
+export AWS_DEFAULT_REGION="us-west-2"

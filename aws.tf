@@ -3,3 +3,9 @@ provider "aws" {
     secret_key = "${var.aws_secret_key}"
     region = "${var.aws_region}"
 }
+
+# We're going to use this for terraform state replication
+provider "aws" {
+  alias  = "us-east-2"
+  region = "us-east-2"
+}
