@@ -1,4 +1,4 @@
-# opsmg-terraform
+# opsmgr-terraform
 Terraform to deploy Pivotal Operations Manager
 
 Quick and dirty terraform to deploy OpsManager into an existing VPC
